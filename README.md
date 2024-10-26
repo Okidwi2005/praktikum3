@@ -57,3 +57,51 @@ Program untuk menentukan bilangan terbesar dari tiga angka yang diinputkan pengg
     - Meminta user memasukan 3 bilangan berbeda
 
 ## Flowchart Program
+![FLOWCHART (2)](https://github.com/user-attachments/assets/0df46d4f-4a56-49b1-91a8-a19dbc92aeb4)
+
+## Code Program
+
+```python
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
+
+if a > b:
+    if a > c:
+        print("Terbesar adalah A")
+        terbesar = a
+    else:
+        print("Terbesar adalah c")
+        terbesar = c
+else:
+    if b > c:
+        print("Terbesar adalah B")
+        terbesar = b
+    else:
+        print("Terbesar adalah C")
+
+print(f"Bilangan terbesar adalah: {terbesar}")
+```
+
+## Output Program
+
+```
+Masukkan bilangan A: 8
+Masukkan bilangan B: 2
+Masukkan bilangan C: 5
+Terbesar adalah A
+Bilangan terbesar adalah: 8
+```
+
+## Cara Kerja Program
+Program bekerja dengan algoritma:
+1. Menerima input 3 bilangan (A, B, C) dari user
+2. Melakukan pengecekan dengan urutan:
+     - Apakah A > B?
+       - Jika ya: cek apakah A > C?
+       - Jika ya: A adalah terbesar
+       - Jika tidak: C adalah terbesar
+     - Jika tidak: cek apakah B > C?
+       - Jika ya: B adalah terbesar
+       - Jika tidak: C adalah terbesar
+3. Menampilkan bilangan terbesar yang ditemukan
