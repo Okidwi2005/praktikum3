@@ -104,4 +104,4 @@ Program bekerja dengan algoritma:
      - Jika tidak: cek apakah B > C?
        - Jika ya: B adalah terbesar
        - Jika tidak: C adalah terbesar
-3. Menampilkan bilangan terbesar yang ditemukan
+3. Menampilkan hasil bilangan terbesar yang ditemukan
